@@ -1,0 +1,59 @@
+@import 'reset.css';
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,500,600,700&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blanchedalmond;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+h3{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    color: floralwhite;
+    margin: 20px 0 ;
+}
+input{
+    font-size: 22px;
+    font-weight: 500;
+    margin: 10px;
+    height: 30px;
+    padding: 0 10px;
+}
+.form_sum{
+    width: 500px;
+    height: 370px;
+    background-color: cadetblue;
+    position: absolute;
+	width: 600px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+    padding: 20px 50px;
+    box-shadow: 8px 8px 5px rgb(184, 134, 11);
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.button{
+    width: 150px;
+    background-color: darkgoldenrod;
+    color: white;
+    font-size: 18px;
+    height: 35px;
+    border-radius: 5px;
+}
+.result{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-bottom: 2px solid white;
+    height: 30px;
+}
+.h3{
+    margin-bottom: 8px ;
+}
